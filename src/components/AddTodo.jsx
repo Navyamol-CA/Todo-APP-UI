@@ -1,11 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const AddTodo = () => {
     return (
         <div>
-
+<Navbar/>
             <div className="container">
                 <div className="row">
+                    <center><h2>--Add Details--</h2></center>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                         <div className="row">
@@ -24,8 +26,10 @@ const AddTodo = () => {
                             <div className="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                                 <label htmlFor="" className="form-label">Completed</label>
-                                <checkbox className="input form-control">Yes</checkbox>
-                                <checkbox className="input form-control">No</checkbox>
+                                <input type="checkbox" name="" id="" className="form-control" />
+                                <label htmlFor="" className="form-label">Yes</label>
+                                <input type="checkbox" name="" id="" className="form-control" />
+                                <label htmlFor="" className="form-label">No</label>
 
                             </div>
                             <div className="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
